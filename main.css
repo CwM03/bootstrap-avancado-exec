@@ -1,0 +1,85 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+
+#cabecalho{
+    border-bottom: 2px solid #ADD8E6;
+}
+
+#filmes .col-4,
+#filmes .col-md-6,
+#filmes .col-sm-12 {
+    text-align: center;
+}
+
+section .col-4 h3,
+section .col-md-6 h3,
+section .col-sm-12 h3 {
+    margin-top: 64px;
+}
+
+section .col-4 p,
+section .col-md-6 p,
+section .col-sm-12 p {
+    text-align: left;
+    margin-top: 16px;
+}
+
+.row h2,
+.rede-sociais {
+    border-bottom: 2px solid red;
+    color: black;
+    padding: 0px 0px;
+}
+
+form button {
+    margin-top: 8px;
+}
+
+.navbar-toggler {
+    text-align: center;
+}
+
+.minhas-imagens {
+    width: 100%;
+}
+
+.nav-link:hover {
+    background-color: #ADD8E6;
+    color: #fff;
+}
+
+.container b {
+    background-color: #ADD8E6;
+    border-radius: 5px;
+    padding: 0px 8px;
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: black;
+}
+
+#filmes h2{
+    margin-top: 24px;
+}
+
+@media (max-width: 765px) {
+    .filmes-item img {
+        max-width: 100%;
+    }
+}
